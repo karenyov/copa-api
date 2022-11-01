@@ -13,6 +13,12 @@ Este repositório contém o código desenvolvido na parte da API.
 //instalando dependências 
 npm i 
 
+// criando as tabelas do database
+npx prisma dev
+
+// interface gráfica de navegação
+npx prisma studio
+
 // executando API
 npm run dev
 ```
