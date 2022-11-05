@@ -16,6 +16,9 @@ npm i
 // criando as tabelas do database
 npx prisma dev
 
+// insere dados nas tabelas
+npx prisma db seed
+
 // interface gráfica de navegação
 npx prisma studio
 
